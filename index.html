@@ -1,124 +1,103 @@
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>the dream</title>
   <link rel="icon" href="drea3.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <!-- this is the header -->
-<!--about the divtag for the logo i did it with little help from youtub and my cousin-->
-    <header>
-      <div class="wrapper">
-        <div class="logo">
-          <img src="genjitsu.gif" alt="logo" width="100px" height="100px">
-      </div>
+  <!-- this is the header -->
+  <header>
+    <div class="wrapper">
       <nav>
-          <a href="#Home">Home</a>
-          <a href="#About us">About</a>
-          <a href="#Work">Work</a>
-          <a href="#Resume">Resume</a>
-          <a href="#Contact us">Contact</a>
+        <a href="#home">Home</a>
+        <a href="#about-us">About</a>
+        <a href="#work">Work</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact-us">Contact</a>
       </nav>
       <form>
-        <label>push</label>
-        <input type="text" placeholder="All it takes is a little push">
-      
-      </form>   
-      </div>
 
-    </header>
+        <input type="text" placeholder="search...">
+        <button>search</button>
 
-<!--this is main-->
+      </form>
+    </div>
 
-    <main>
-<center>
-  <section id="Home">
-  <h1>welcome to my world</h1>
+  </header>
 
-        <hr>
-        <img src="fouratpic.jpeg" alt="my pictures" width="150px" height="150px">
-       <p>hello my name is Fourat and ill try my best to be a Web developer in 2023</p>
-       <br>
+  <!--this is main-->
+
+  <main class="main">
+    <center>
+      <h1 class="welcome-header">welcome to my world</h1>
+
+      <section>
+        <div class="cards-wrapper">
+          <div id="home">
+            <img src="fouratpic.jpeg" alt="my pictures" width="150px" height="150px" class="profile-pic">
+            <p>hello my name is Fourat and ill try my best to be a Web developer in 2023</p>
+          </div>
+          <div id="about-us">
+            <h1>about us</h1>
+            <p>so am 26 years old i obtained baccalaureate degree in economics and management in 2016 and i graduated as
+              senior technician in logistics in 2019 </p>
+          </div>
+          <div id="work">
+            <h1>work</h1>
+            <ul>
+              <li>from 2020 till 2022 as assistant manager in internation trading companie in Tunisia called Golden
+                pearl
+              </li>
+              <li>from 2022 till today as sales executives in internation trading companie in Qatar called UBL</li>
+            </ul>
+          </div>
+          <div id="resume">
+            <h1>Resume</h1>
+            <br>
+            <iframe width="100%" src="https://www.youtube.com/embed/XPE7eaR_XxM" title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+          </div>
+        </div>
       </section>
 
-      <section id="About us">
-       <h1>about us</h1>
+      <section id="contact-us">
+        <h1>contact us on</h1>
 
-        <p>so am 26 years old i obtained baccalaureate degree in economics and management in 2016 and i graduated as senior technician in logistics in 2019 </p>
-</center>
-</section>
+        <table class="contact-table" cellspacing="0">
 
-<hr>
-<br>
-<br>
-<br>
-<center>
+          <tr>
 
-  <section id="Work">
-  <h1>work</h1>
-</section>
+            <th>email</th>
+            <th>phone numbers: </th>
+          </tr>
+          <tr>
+            <td>fouratgacem@gmail.com</td>
+            <td>+21658100675 <br> +97466424881</td>
+          </tr>
+        </table>
 
-</center>
+      </section>
 
-
-<ul>
-  <li>from 2020 till 2022 as assistant manager in internation trading companie in Tunisia called Golden pearl</li>
-  <li>from 2022 till today as sales executives in internation trading companie in Qatar called UBL</li> 
-</ul>
-
-<br>
-<br>
-<br>
-<br>
-
-<center>
-  <h1>Resume</h1>
-  <br>
-  <br>
-  <br>
-  
-<section id="Resume">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XPE7eaR_XxM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</section>
-
-<br>
-<br>
-<br>
-<br>
-</center>
-
-<section id="Contact us">
-<center>
-  <h1>contact us on</h1>
-</center>
-<center>
-      <table border="2">
-
-        <tr>
-          
-          <th>email</th>
-          <th>phone numbers: </th>
-        </tr>
-        <tr>
-          <td>fouratgacem@gmail.com</td>
-          <td>+21658100675 <br> +97466424881</td>
-        </tr>
-      </table>
-    </center>
-  </section>
   </main>
 
 
-<!--this is a footer-->
-    <footer>
-<h5>thank you for visiting us F.K 2023</h5>
-<select>
-  <option>FR</option>
-  <option>EN</option>
-  <option>AR</option>
-</select>
-    </footer> 
+  <!--this is a footer-->
+  <footer>
+    <h5>thank you for visiting us F.K 2023</h5>
+    <img src="dream1.png" width="100px">
+    <select>
+      <option>FR</option>
+      <option>EN</option>
+      <option>AR</option>
+    </select>
+  </footer>
 </body>
+
 </html>
